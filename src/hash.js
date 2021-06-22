@@ -1,6 +1,6 @@
 import { BaseRouter } from './base'
 
-export class HashRouter {
+export class HashRouter extends BaseRouter{
   constructor(list) {
     // super(list)
     this.handler()

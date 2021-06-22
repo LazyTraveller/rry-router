@@ -1,4 +1,5 @@
-export class HistoryRouter {
+import { BaseRouter } from './base'
+export class HistoryRouter extends BaseRouter {
   constructor(list) {
     // super(list);
     this.handler();
